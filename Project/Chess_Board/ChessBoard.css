@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+section {
+    height: 643px;
+    width: 640px;
+    border: 2px solid black;
+}
+.row{
+    display: flex;
+    text-align: center;
+}
+.box1{
+    height: 80px;
+    width: 80px;
+    background-color: #DDA853;
+    color: white;
+}
+.box2{
+    height: 80px;
+    width: 80px;
+    background-color: #F6C794;
+}
+i{
+    font-size: 35px;
+    margin-top: 20px;
+}

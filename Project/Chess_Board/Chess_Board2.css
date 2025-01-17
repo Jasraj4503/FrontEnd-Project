@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.chessboard{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+}
+.row{
+    display: flex;
+    text-align: center;
+}
+.square{
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: 800;
+}
+.light{
+    background-color: gainsboro;
+
+}
+.dark{
+    background-color: green;
+    color: white;
+}
